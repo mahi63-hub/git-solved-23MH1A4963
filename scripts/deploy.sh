@@ -1,36 +1,27 @@
 #!/bin/bash
-# Production Deployment Script
-# Version: 1.0.0
-
 set -e
 
 echo "====================================="
+<<<<<<< HEAD
 echo "DevOps Simulator - Production Deploy"
 echo "====================================="
 
-# Configuration
 DEPLOY_ENV="production"
 DEPLOY_REGION="us-east-1"
 APP_PORT=8080
 
 echo "Environment: $DEPLOY_ENV"
 echo "Region: $DEPLOY_REGION"
-echo "Port: $APP_PORT"
+=======
+echo "DevOps Simulator - Development Deploy"
+echo "====================================="
 
-# Pre-deployment checks
-echo "Running pre-deployment checks..."
-if [ ! -f "config/app-config.yaml" ]; then
-    echo "Error: Configuration file not found!"
-    exit 1
-fi
+DEPLOY_ENV="development"
+DEPLOY_MODE="docker-compose"
+APP_PORT=3000
 
-# Deploy application
-echo "Starting deployment..."
-echo "Pulling latest Docker images..."
-# docker pull devops-simulator:latest
-
-echo "Rolling update strategy initiated..."
-# kubectl rolling-update devops-simulator
-
-echo "Deployment completed successfully!"
-echo "Application available at: https://app.example.com"
+echo "Environment: $DEPLOY_ENV"
+echo "Mode: $DEPLOY_MODE"
+echo "Installing dependencies..."
+npm install
+>>>>>>> dev
