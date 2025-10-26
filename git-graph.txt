@@ -1,8 +1,11 @@
-* 8ee0aad (HEAD -> main, origin/main) docs: Add changelog
-* 4662fa0 (tag: v1.0.0, origin/feature/new-feature, origin/feature/another-feature, feature/new-feature) merge: Resolve all conflicts between main and dev branches
-* 0312c6f (instructor/main, instructor/HEAD) updating main
-* fadfd24 (feature/another-feature) Revise README for DevOps Simulator project
+*   ece4994 (HEAD -> main, origin/main) merge: Resolve all conflicts between main and dev branches
+|\  
 | * d3dd9b2 (instructor/conflict-simulator, conflict-simulator) updating conflict-simulator
+* | 83503fc docs: Add final project artifacts
+* | 8ee0aad docs: Add changelog
+* | 4662fa0 (tag: v1.0.0, origin/feature/new-feature, origin/feature/another-feature, feature/new-feature) merge: Resolve all conflicts between main and dev branches
+* | 0312c6f (instructor/main, instructor/HEAD) updating main
+* | fadfd24 (feature/another-feature) Revise README for DevOps Simulator project
 |/  
 | * 02011a5 (instructor/dev) updating dev
 |/  
